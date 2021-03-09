@@ -1,0 +1,21 @@
+package com.todolist.org;
+
+
+
+public class ToDoList {
+
+    private int id;
+    private String value;
+    private boolean priority;
+
+    public ToDoList(String value) {
+      this.value = value;
+      this.priority = false;
+    }
+
+    public ToDoList(String value, boolean priority) {
+       this.value = value;
+       this.priority = priority;
+     }
+
+}
